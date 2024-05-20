@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <title></title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="styles.css" rel="stylesheet">
+  <script src="scripts.js" defer></script>
+</head>
+
+<body>
+  <main>
+    <div class="header">
+      <h1>To do list</h1>
+      <p class="indicador"><span id="number">0</span>/<span id="total">3</span></p>
+    </div>
+    <ul id="lista-tasks">
+      <li>
+        <div>
+          <input type="checkbox" />
+          <p>Mi nota</p>
+        </div>
+        <img src="delete.svg" />
+      </li>
+    </ul>
+    <div class="bottom">
+      <div id="disclimer">
+        <p>You reach the maximum tasks allowed in your plan. If you want to add new tasks try to delete old ones or just
+          click upgrade to upgrade your plan</p>
+        <button class="blue">Upgrade</button>
+      </div>
+      <input type="text" placeholder="New Todo" />
+      <button id="addTask" class="rounded">Add todo</button>
+    </div>
+  </main>
+</body>
+
+</html>
